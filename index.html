@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
+  <title>Boostrap Index</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
   <link rel="stylesheet" href="./assets/style/all.css">
@@ -15,7 +15,20 @@
   <header class="pos-fixed">
     <h1><a href="./index.html">要去哪裡鴨</a></h1>
   </header>
-  <%- contents %>
+  <div class="banner">
+    <div class="container">
+        <div class="pt-5">
+            <h2 class="fs-3 text-white">368個鄉鎮市區 總有一個你的菜</h2>
+            <p class="fs-2 text-white mt-xs">這次想去哪裡鴨？</p>
+        </div>
+        <div class="mt-3">
+            <select name="regionSearch" class="regionSearch form-select rounded-3 py-2">
+            </select>
+            <button class="btn btn-primary fs-2 mt-3 w-100 rounded-3 py-2">搜尋<span class="material-icons-outlined fs-2 align-middle ms-m d-inline-block">search</span></button>
+        </div>
+    </div>
+</div>
+
   <footer>
     <div class="container p-3 bg-light">
       <p class="fs-1 text-dark">Copyright © 2021 要去哪裡鴨. All rights reserved.</p>
