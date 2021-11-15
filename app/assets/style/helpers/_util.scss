@@ -6,6 +6,32 @@ $utilities:map-merge(
               responsive: true,
               class: pos
             )
-          ),
+        ),
+        "z-index": (
+          property: z-index,
+          values: (
+              5: 5,
+              4: 4,
+              3: 3,
+              2: 2,
+              1: 1,
+          )
+        ),
+        "height": (
+          property: height,
+          class: h,
+          responsive: true,
+          values: (
+            $imgSizes
+          )
+        ),
+        "width": (
+          property: width,
+          class: w,
+          responsive: true,
+          values: (
+            $imgSizes
+          )
+        ),
     )
 )

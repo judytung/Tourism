@@ -259,6 +259,8 @@ $spacers: (
   3: $spacer * 1.5,  //24
   4: $spacer * 2,    //32
   5: $spacer * 2.5,  //40
+  6: $spacer * 3,    //48
+  11: $spacer * 5.5  //88
 ) !default;
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) !default;
@@ -1472,3 +1474,16 @@ $kbd-color:                         $white !default;
 $kbd-bg:                            $gray-900 !default;
 
 $pre-color:                         null !default;
+
+
+
+// 高度
+$base : 16;
+$imgSizes :(
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%,
+  auto: auto,
+  6\.125: (98/$base) * $spacer,
+  )
