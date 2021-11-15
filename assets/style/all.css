@@ -13006,6 +13006,8 @@ a {
 .banner {
   background-image: url(../images/Main-Banner-mask.png);
   height: 489px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 a, .h1 a {
