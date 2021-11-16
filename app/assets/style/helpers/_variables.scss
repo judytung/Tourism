@@ -275,6 +275,8 @@ $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null) 
 $position-values: (
   0: 0,
   18: 18%,
+  35: 35%,
+  45: 45%,
   50: 50%,
   100: 100%,
   n6: -6%
@@ -1484,9 +1486,17 @@ $imgSizes :(
   20: 20%,
   23: 23%,
   25: 25%,
+  45: 45%,
   50: 50%,
   75: 75%,
   100: 100%,
   auto: auto,
   6\.125: (98/$base) * $spacer,
+  9\.844: (157/$base) * $spacer,
+  );
+
+
+  $transform : (
+    center: translate(-50%, -50%),
+
   )

@@ -33,5 +33,13 @@ $utilities:map-merge(
             $imgSizes
           )
         ),
+        "transform" :(
+          property: transform,
+          class:transform,
+          responsive: true,
+          values: (
+            $transform
+          )
+        )
     )
 )
